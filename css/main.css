@@ -1,0 +1,125 @@
+body{font-family: 'Open Sans', sans-serif; font-size: 13px; }
+
+.clear {clear:both}
+.tpad {padding: 80px 0;}
+.padded {padding: 40px}
+.legal {font-size: 12px; text-align:left;}
+h2 {font-size:90px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: bold;}
+h3 {font-size: 60px; font-family: 'Montserrat', sans-serif; text-transform: uppercase; font-weight: bold; margin:10px}
+h4 {font-weight:normal; font-size: 24px; line-height: 20px}
+
+a.button {padding: 15px 30px; border: #caf1ff 3px solid; border-radius: 6px; color: #caf1ff; font-weight:bold; text-decoration: none; transition: all .1s}
+a.button:hover {border-color: #fff; color: #fff;}
+a.button:active {background-color: #163547; border-color: #163547}
+
+.threegrid {width: 100%; max-width: 1200px}
+.threegrid .item {float: left; width:30%; padding-right: 5%}
+.threegrid .last {padding-right: 0px}
+
+.section {width:100%}
+.section .content {max-width:1200px; width: 100%; margin:auto; clear:both; text-align: center}
+.section h2{text-align: center}
+.section .sub {font-size: 22px}
+.section .intro {padding-bottom: 100px}
+
+.hero {background: #2c9edd; overflow:hidden; }
+.hero .content {position: relative; text-align:left}
+.hero nav {padding-top:40px}
+.hero nav .logo{width:145px; height:57px; background: url('../img/logo.png') 50% 50%; float: left; text-indent: -9999px; }
+.hero nav ul {list-style-type: none; text-align: center; padding:25px 20px 0; float:left}
+.hero nav ul li {display:inline; padding:0px 10px}
+.hero nav ul li a {color: #fff; text-decoration: none}
+.hero nav ul li a:hover {color: #fff; text-decoration: none}
+.hero h2 span { display: block; }
+.hero h2 { color: #caf1ff; display: none; line-height: 100%; text-align: left; }
+.hero h2:first-child { display: block; }
+
+.hero .tout {padding-bottom: 100px;}
+.hero .tout h1{width: 560px; color: #caf1ff; letter-spacing: -5px; line-height:85px; z-index:4; position:relative}
+.hero .tout .butotn{z-index:4; position:relative}
+.hero .tout .img {position:absolute; top: 20px; right: 5px; z-index: 1}
+.hero .tout .img img {width: 100%}
+
+.section.features {}
+.feature_icon {height: 100px}
+
+.how {position: relative; height: 1300px;background: #163547; color: #fff; overflow:hidden}
+.how .app_screen {position:absolute; bottom:-5px; width:100%; left:0px}
+.how .app_screen img {margin:auto}
+.how p { font-size: 117%; margin: 20px auto; width: 51%; }
+
+.team {background: #e0f4ff}
+.team .item img {width:100%; max-width:400px}
+
+.testamonials {background: url('../img/bg.jpg');}
+
+.signup {background: #2c9edd; color: #fff}
+.signup form {max-width: 700px; margin: auto; width: 98%; padding-bottom: 40px}
+.signup form input, .signup form textarea {width: 96%; padding: 2% 2%; border-radius: 4px; border:0px; background-color: #fff; color: #2c9edd; margin: 10px 0}
+.signup form textarea {height: 100px}
+.signup .actions {text-align: left; padding-top:40px}
+.signup .actions .signup {margin-right: 30px; margin-left: 150px}
+.signup .actions .social {margin: 0 5px}
+.signup .actions .label {margin: 0 20px}
+
+.signup form .legal {text-align: left; display:block}
+
+.footer {background: #163547; color:#fff}
+.footer .copyright {color:#2c9edd; font-size: 12px}
+
+
+@media only screen and (max-width: 1206px) {
+   .section .content {width: 96%; padding: 80px 2%;}
+    .hero .content {padding-top:0px}
+}
+
+@media only screen and (max-width: 1027px) {
+    .hero .tout .img {top: 150px}
+    .hero .tout .img img{width: 400px;}
+}
+
+@media only screen and (max-width: 900px) {
+    .how {height: 800px;}
+    .how .app_screen img{width: 700px}
+    .hero .tout .img {top: 150px}
+    .hero .tout .img img{width: 300px;}
+}
+
+@media only screen and (max-width: 800px) {
+    .hero .tout .img {top: 150px}
+    .hero .tout .img img{width: 200px;}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .how {height: 500px;}
+    .how .app_screen img{width: 300px}
+    .hero .tout h1 {font-size: 50px; width: 300px; line-height: 45px; }
+    .signup .actions {text-align: left; padding-top:40px}
+    .signup .actions .signup {margin-right: 0px; margin-left: 0px}
+    .signup .actions .social {margin: 0 5px}
+    .signup .actions .label {margin: 0 20px}
+    .threegrid .item {width: 96%; padding: 0 2%;}
+}
+
+@media only screen and (max-width: 654px) {
+    nav ul {display:none}
+    .team .item img {width: 60%}
+}
+
+@media only screen and (max-width: 517px) {
+    .how {height: 560px;}
+    .how .app_screen img{width: 300px}
+    .hero .tout h1 {font-size: 40px; width: 300px; line-height: 45px; }
+
+    .signup .actions .signup {display:block; width: 80%; margin-bottom: 40px;}
+}
+@media only screen and (max-width: 400px) {
+    .how {height: 560px;}
+    .hero .tout .img img {width: 100px}
+    .hero .tout h1 {font-size: 40px; width: 300px; line-height: 45px; }
+}
+
+
+
