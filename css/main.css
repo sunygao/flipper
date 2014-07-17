@@ -12,9 +12,9 @@ a.button {padding: 15px 30px; border: #caf1ff 3px solid; border-radius: 6px; col
 a.button:hover {border-color: #fff; color: #fff;}
 a.button:active {background-color: #163547; border-color: #163547}
 
-.threegrid {width: 100%; max-width: 1200px}
-.threegrid .item {float: left; width:30%; padding-right: 5%}
-.threegrid .last {padding-right: 0px}
+.grid {width: 100%; max-width: 1200px}
+.grid .item {float: left; width:22%; padding-right: 4%}
+.grid .last {padding-right: 0px}
 
 .section {width:100%}
 .section .content {max-width:1200px; width: 100%; margin:auto; clear:both; text-align: center}
@@ -43,10 +43,11 @@ a.button:active {background-color: #163547; border-color: #163547}
 .section.features {}
 .feature_icon {height: 100px}
 
-.how {position: relative; height: 1300px;background: #163547; color: #fff; overflow:hidden}
+.how {position: relative; height: 1260px;background: #163547; color: #fff; overflow:hidden}
 .how .app_screen {position:absolute; bottom:-5px; width:100%; left:0px}
 .how .app_screen img {margin:auto}
 .how p { font-size: 117%; margin: 20px auto; width: 51%; }
+.how li { font-size: 117%; list-style-position:inside; margin-bottom: 15px; }
 
 .team {background: #e0f4ff}
 .team .item img {width:100%; max-width:400px}
